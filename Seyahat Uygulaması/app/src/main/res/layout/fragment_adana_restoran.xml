@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AdanaRestoran" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="WebViewLayout">
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-120dp"
+                android:src="@drawable/kayakebabi" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-160dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="KAYA KEBAP VE TAŞ FIRIN LAHMACUN" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Hurmalı Mah. 34006 Sk. No: 6 Seyhan, Adana 01060 Türkiye" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/kazim" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="0dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="KAZIM BÜFE" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Cemalpaşa Mah.Toros; CAD. BAHADIR APT. NO:34/B, Adana 01120 Türkiye" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/istah" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="İŞTAH KEBAP" />
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Yag Cami Yanı, Alimunif Caddesi, Adana Türkiye" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

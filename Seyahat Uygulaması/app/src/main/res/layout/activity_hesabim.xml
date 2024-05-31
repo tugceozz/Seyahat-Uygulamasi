@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue"
+    tools:context=".hesabim">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <EditText android:id="@+id/girTextemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:background="@drawable/radius2"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:minHeight="48dp"
+        android:hint="Email Adresinizi Giriniz"/>
+
+    <EditText android:id="@+id/girTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:background="@drawable/radius2"
+        android:inputType="textPassword"
+
+        android:hint="Şifrenizi Giriniz"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+    <Button android:id="@+id/girbutton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/radius2"
+        android:textSize="18sp"
+        android:onClick="Gir"
+        android:layout_margin="10dp"
+        android:text="Giriş Yap"/>
+
+    <EditText android:id="@+id/guncelle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15dp"
+        android:background="@drawable/radius2"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:hint="Güncel İsim"/>
+
+    <Button android:id="@+id/guncellebutton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/radius2"
+        android:textSize="18sp"
+        android:onClick="isimGuncelle"
+        android:layout_marginTop="10dp"
+        android:text="İsmi Güncelle"/>
+
+    <Button android:id="@+id/silbutton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/radius2"
+        android:textSize="18sp"
+        android:onClick="delete"
+        android:layout_margin="10dp"
+        android:text="Hesabı Sil"/>
+</LinearLayout>

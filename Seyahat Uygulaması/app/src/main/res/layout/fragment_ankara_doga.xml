@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AnkaraDoga" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="WebViewLayout">
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-90dp"
+                android:src="@drawable/eymir" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-150dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="EYMİR GÖLÜ" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Eymir Gölü, Ankara il sınırları içinde yer alan bir göldür. Arazisi Orta Doğu Teknik Üniversitesi'ne aittir. ODTÜ Spor Kulübü Kürek ve Yelken Takımları çalışma alanıdır; göl kenarında takımlara ait kayıkhane vardır. Göl kendine has bir fauna ve floraya sahiptir.
+" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Aşağı Dikmen, Pk: 06400 – Çankaya / Ankara" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/aoc" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-20dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="ATATÜRK ORMAN ÇİFTLİĞİ" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Ankara'nın en büyük yeşil alanı olan çiftlik arazisi içinde ülkenin en büyük hayvanat bahçesi, Atatürk’ün doğduğu Selanik'teki evin bir benzeri, tarihî Karadeniz Havuzu ve Devlet Mezarlığı gibi ziyaret alanları bulunur.
+" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Yeni Çiftlik Caddesi No: 6-3 Yenimahalle/Ankara" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-70dp"
+                android:src="@drawable/kugulu" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-150dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="KUĞULU PARK" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Kuğulu Park, Ankara şehrinin Kavaklıdere mahallesinde bulunan bir parktır. Park, Tunalı Hilmi Caddesi, Atatürk Bulvarı ve Polonya Caddesi'nin arasındadır. Parkın havuzunda, kuğular, kazlar ve ördekler yer alır.
+" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Atatürk Bulvarı 241/A Kuğulupark İçi Kavaklıdere/ANKARA" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

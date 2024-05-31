@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    tools:context=".AnaSayfa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/purple"
+                android:text="HANGİ ŞEHRİN GÜZELLİKLERİNİ MERAK EDİYORSUNUZ?"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/istanbul"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="İSTANBUL" />
+
+            <Button
+                android:id="@+id/ankara"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="ANKARA" />
+
+            <Button
+                android:id="@+id/bolu"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="BOLU" />
+
+            <Button
+                android:id="@+id/trabzon"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="TRABZON" />
+
+            <Button
+                android:id="@+id/erzurum"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="ERZURUM" />
+
+            <Button
+                android:id="@+id/adana"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="ADANA" />
+
+            <Button
+                android:id="@+id/mardin"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="MARDİN" />
+
+            <Button
+                android:id="@+id/izmir"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:textSize="30dp"
+                android:background="@drawable/radius"
+                android:text="İZMİR" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

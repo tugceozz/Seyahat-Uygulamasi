@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius2"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Adınızı Giriniz"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius2"
+        android:hint="Soyadınızı Giriniz"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius2"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Email Adresinizi Giriniz"
+        android:inputType="textEmailAddress"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="15dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius2"
+        android:hint="Telefon Numaranızı Giriniz"
+        android:ems="10"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="15dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius2"
+        android:hint="Şifrenizi Giriniz"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:onClick="kaydet"
+        android:background="@drawable/radius2"
+        android:backgroundTint="@color/l"
+        android:text="KAYIT OL"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/radius2"
+        android:text="KAYIT OLMADAN DEVAM ET" />
+</LinearLayout>

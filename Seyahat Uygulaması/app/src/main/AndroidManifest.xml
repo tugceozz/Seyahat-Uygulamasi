@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projeodevi">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjeOdevi">
+        <activity
+            android:name=".hesabim"
+            android:exported="false" />
+        <activity
+            android:name=".izmir"
+            android:exported="false" />
+        <activity
+            android:name=".bolu"
+            android:exported="false" />
+        <activity
+            android:name=".mardin"
+            android:exported="false" />
+        <activity
+            android:name=".adana"
+            android:exported="false" />
+        <activity
+            android:name=".erzurum"
+            android:exported="false" />
+        <activity
+            android:name=".trabzon"
+            android:exported="false" />
+        <activity
+            android:name=".ankara"
+            android:exported="false" />
+        <activity
+            android:name=".istanbul"
+            android:exported="false" />
+        <activity
+            android:name=".AnaSayfa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

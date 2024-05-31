@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".IzmirMuze" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="WebViewLayout">
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-150dp"
+                android:src="@drawable/key" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-200dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="KEY MUSEUM" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="İzmir Torbalı taraflarından geçiyorsanız muhakkak yolunuzu KEY müzesine döndürün. Keyifli birkaç saat geçirirsiniz. Arabalar ve motosikletler ilgi alanınızsa çok hoşunuza gidecektir.
+" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Çapak Mahallesi Özgörkey Caddesi No:5/1, İzmir 35860 Türkiye" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/arkas" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-50dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="ARKAS SANAT MERKEZİ" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Arkas Sanat Merkezi, Türkiye'nin İzmir şehrinde yer alan bir sanat müzesidir. Kasım 2011'de açılan müzede, Arkas Holding Yönetim Kurulu Başkanı Lucien Arkas tarafından oluşturulan Arkas Koleksiyonu ile çeşitli başkaca eserler sergilenmektedir
+" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Kültür, 1380 . Sk. 3-1, 35230 Konak/İzmir" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-350dp"
+                android:src="@drawable/tarih" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="-460dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="İZMİR TARİH VE SANAT MÜZESİ" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="İzmir Tarih ve Sanat Müzesi, Türkiye'nin İzmir şehrinde, Kültürpark içerisinde 2004 yılında hizmete girmiş müzedir. Taş Eserler Bölümü, Seramik Eserler Bölümü ve Kıymetli Eserler Bölümü olmak üzere üç ayrı bölümde ziyaretçilerine İzmir ve çevresinde yapılan kazılarda ortaya çıkarılan eserleri sunmaktadır.
+" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Adres:Mimar Sinan, Kültür Park Fuar Alanı İçi, 35220 Konak/İzmir" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

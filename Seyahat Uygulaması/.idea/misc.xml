@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/drawable/radius.xml" value="0.165" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/drawable/radius2.xml" value="0.165" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_adana.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_ana_sayfa.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_ankara.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_bolu.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_erzurum.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_giris.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_hesabim.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_istanbul.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_izmir.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_mardin.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/activity_trabzon.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_adana_doga.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_adana_muze.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_adana_restoran.xml" value="0.23343527013251783" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_adana_restorant.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_ankara_doga.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_ankara_muze.xml" value="0.21401869158878506" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_ankara_restoran.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_ankara_restorant.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_bolu_doga.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_bolu_muze.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_bolu_restoran.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_bolu_restorant.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_erzurum_doga.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_erzurum_muze.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_erzurum_restoran.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_istanbul_doga.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_istanbul_muze.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_istanbul_restoran.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_izmir_doga.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_izmir_muze.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_izmir_restoran.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_mardin_doga.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_mardin_muze.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_mardin_restoran.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_trabzon_doga.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_trabzon_muze.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/layout/fragment_trabzon_restoran.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/menu/bottommenu.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/menu/gerimenu.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/ProjeOdevi/app/src/main/res/menu/topmenu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

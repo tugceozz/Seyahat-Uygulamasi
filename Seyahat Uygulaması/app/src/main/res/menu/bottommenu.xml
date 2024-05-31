@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/muze"
+        android:title="Müzeler"
+        android:icon="@drawable/ic_baseline_museum_24"></item>
+    <item android:id="@+id/restorant"
+        android:title="Restoran"
+        android:icon="@drawable/ic_baseline_restaurant_24"></item>
+    <item android:id="@+id/doga"
+        android:title="Doğal Güzellikler"
+        android:icon="@drawable/ic_baseline_local_florist_24"></item>
+</menu>
